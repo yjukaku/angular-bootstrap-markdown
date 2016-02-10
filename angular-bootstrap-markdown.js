@@ -17,6 +17,9 @@ module.directive("markdownEditor", [function(){
         var bootstrapMarkdownOpts = {
           "autofocus": false,
           "savable": false,
+          "hiddenButtons": [
+            "cmdPreview"
+          ],
           "onChange": function(element){
             scope.$apply(function(){
               scope.ngModel = element.getContent();
@@ -35,9 +38,10 @@ module.directive("markdownPreview", [function(){
   return {
     restrict: "E",
     scope: {
-      "ngModel": "="
+      "ngModel": "=",
+      "placeholder": "@"
     },
-    template: "<div class='preview-output' ng-bind-html='output'>Nothing yet...</div>",
+    template: "<div class='preview-output' ng-bind-html='output'></div>",
     link: function(scope, element, attrs){
 
       scope.output = null;
@@ -53,7 +57,7 @@ module.directive("markdownPreview", [function(){
         });
         scope.$watch("ngModel", function(newValue){
           if(newValue == null || newValue.trim() == "") {
-            scope.output = null;
+            scope.output = scope.placeholder;
             return;
           }
           scope.output = marked(newValue);
