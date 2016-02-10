@@ -1,7 +1,7 @@
 {
-  "name": "angular-bootstrap-markdown",
+  "name": "angular-markdown-plus",
   "version": "0.0.1",
-  "homepage": "https://github.com/yjukaku/angular-bootstrap-markdown",
+  "homepage": "https://github.com/yjukaku/angular-markdown-plus",
   "authors": [
     "Yousuf Jukaku"
   ],
@@ -11,11 +11,11 @@
     "bootstrap-markdown": "~2.10.0"
   },
   "main": [
-    "angular-bootstrap-markdown.js"
+    "angular-markdown-plus.js"
   ],
   "repository": {
     "type": "git",
-    "url":  "file:///Users/levelset/oss/angular-bootstrap-markdown/angular-bootstrap-markdown.git"
+    "url":  "https://github.com/yjukaku/angular-markdown-plus.git"
   },
   "keywords": [
     "AngularJS",

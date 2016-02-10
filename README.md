@@ -1,4 +1,4 @@
-# angular-bootstrap-markdown
+# angular-markdown-plus
 
 A combination of the bootstrap-markdown and the marked libraries for handling Markdown.  This plugin simply adds two useful directives to your application: `markdown-editor` and `markdown-preview`.  
 
@@ -11,7 +11,7 @@ The `markdown-preview` element will be a simple div with the rendered markdown.
 Use bower:
 
 ```
-bower install angular-bootstrap-markdown
+bower install angular-markdown-plus
 ```
 
 Then make sure that the necessary scripts from the two dependencies are loaded on your page.

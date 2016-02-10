@@ -1,4 +1,4 @@
-var module = angular.module("angularBootstrapMarkdown", []);
+var module = angular.module("angularMarkdownPlus", []);
 
 module.directive("markdownEditor", [function(){
   return {
