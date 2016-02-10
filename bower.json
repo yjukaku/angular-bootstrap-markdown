@@ -1,0 +1,34 @@
+{
+  "name": "angular-bootstrap-markdown",
+  "version": "0.0.1",
+  "homepage": "https://github.com/yjukaku/angular-bootstrap-markdown",
+  "authors": [
+    "Yousuf Jukaku"
+  ],
+  "description": "Markdown editor and live preview as an AngularJS directive",
+  "dependencies": {
+    "marked": "~0.3.5",
+    "bootstrap-markdown": "~2.10.0"
+  },
+  "main": [
+    "angular-bootstrap-markdown.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url":  "file:///Users/levelset/oss/angular-bootstrap-markdown/angular-bootstrap-markdown.git"
+  },
+  "keywords": [
+    "AngularJS",
+    "Markdown",
+    "Editor",
+    "Preview"
+  ],
+  "license": "Apache 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

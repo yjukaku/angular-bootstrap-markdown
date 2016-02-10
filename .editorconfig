@@ -1,0 +1,18 @@
+# http://editorconfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix line endings, 2-space indents, trim ending whitespace
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# don't trim whitespace or insert newlines for markdown files
+[*.md]
+insert_final_newline = false
+trim_trailing_whitespace = false
