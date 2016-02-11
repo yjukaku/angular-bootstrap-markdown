@@ -28,6 +28,14 @@ module.directive("markdownEditor", [function(){
         };
 
         element.markdown(bootstrapMarkdownOpts);
+        scope.editor = element.data("markdown");
+
+        scope.$watch("ngModel", function(newValue){
+          if(!angular.equals(scope.editor.getContent(), newValue)) {
+            scope.editor.setContent(newValue);
+          }
+        });
+
         element.addClass("editorified");
       }
     }
