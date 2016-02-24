@@ -20,7 +20,7 @@ Then make sure that the necessary scripts from the two dependencies are loaded o
 
 ```
 <markdown-editor ng-model="article.body"></markdown-editor>
-<markdown-editor ng-model="article.body" placeholder="No body yet... One day it will be some body"></markdown-editor>
+<markdown-preview ng-model="article.body" placeholder="No body yet... One day it will be some body"></markdown-preview>
 
 ```
 
